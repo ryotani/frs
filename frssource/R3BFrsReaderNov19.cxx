@@ -196,7 +196,7 @@ Bool_t R3BFrsReaderNov19::Read()
                                                                fData->SC5RdE,
                                                                fData->SC5Lt,
                                                                fData->SC5Rt);
-
+*/
 
     new ((*fArraySpill)[fArraySpill->GetEntriesFast()]) FrsSpillMappedData(
                                                                fData->ClockhundredkHz,
@@ -213,7 +213,7 @@ Bool_t R3BFrsReaderNov19::Read()
                                                                0, 
                                                                0,0,0,0,0,0,0,0,0,0,0,0 
                                                                );
-
+    /*
     new ((*fArrayMusic)[fArrayMusic->GetEntriesFast()]) FRSMusicMappedData(0, 0, fData->MUS1A1);
     new ((*fArrayMusic)[fArrayMusic->GetEntriesFast()]) FRSMusicMappedData(0, 1, fData->MUS1A2);
     new ((*fArrayMusic)[fArrayMusic->GetEntriesFast()]) FRSMusicMappedData(0, 2, fData->MUS1A3);
